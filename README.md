@@ -1,27 +1,15 @@
-# TaskList
+# Tasks List | Lista de Tareas
+#Desarrollado con Angular y JSON Server (Local REST API) | developed with Angular and JSON Server (Local REST API)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.4.
+## View Task List
+<a href='https://jhossymarbalderrama.github.io/clock_online/' target='_blank'>🚀 Task List 👈<a/>
 
-## Development server
+## Desktop
+<p align="center">
+  <img src='https://github.com/Jhossymarbalderrama/tasksList/assets/52534649/88880175-20a4-4a75-b91a-839ff340554b'/>
+</p>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+  ## Responsive
+| Macbooks and Tablets  | Smartphones |
+| ------------- | ------------- |
+| <img src='https://github.com/Jhossymarbalderrama/tasksList/assets/52534649/53a5c292-989f-4ca0-a1ca-d4c95370d210' width="700" height="350" /> |  <img src='https://github.com/Jhossymarbalderrama/tasksList/assets/52534649/c03850c8-0c54-437a-92e5-c6632154cbc1' width="170" height="350" />  |
