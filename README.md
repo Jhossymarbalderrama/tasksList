@@ -1,4 +1,4 @@
-![image](https://github.com/Jhossymarbalderrama/tasksList/assets/52534649/70d57c01-4910-4054-98e4-36e5a3c3595d)# Tasks List | Lista de Tareas
+# Tasks List | Lista de Tareas
 #Desarrollado con Angular y JSON Server (Local REST API) | developed with Angular and JSON Server (Local REST API)
 
 ## View Task List
