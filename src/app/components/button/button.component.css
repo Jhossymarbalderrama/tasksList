@@ -1,0 +1,9 @@
+.btn-custom{
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black;
+    border: 1px solid gray;
+    padding: 6px 16px;
+    border-radius: 4px;
+    font-size: 1.6vh;
+}

@@ -1,0 +1,20 @@
+<form [formGroup]="formTarea" class="add-form" (ngSubmit)="onSubmit()" *ngIf="showAddTask">
+  <div class="form-control">
+    <label for="text"> Tarea </label>
+    <input type="text" formControlName="text" name="text" id="text" placeholder="ingrese una tarea" [(ngModel)]="text"/>    
+  </div>
+
+  <div class="form-control">
+    <label for="day"> Dia y Hora </label>
+    <input type="text" formControlName="day" name="day" id="day" placeholder="ingrese dia y hora" [(ngModel)]="day"/>
+  </div>
+
+  <div class="form-control form-control-check">
+    <label for="reminder"> Estado </label>
+    <input type="checkbox" formControlName="reminder" name="reminder" id="reminder" [(ngModel)]="reminder"/>
+  </div>
+
+  <button type="submit" value="guardar tarea" class="btn-custom btn-block">
+    Agregar Tarea
+  </button>
+</form>

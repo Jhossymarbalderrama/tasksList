@@ -1,0 +1,68 @@
+.task{
+    background-color: #f4f4f4;
+    margin: 10px 0px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.task.reminder{
+    border-left: 5px solid orange;
+}
+
+.task{
+    border-left: 5px solid green;
+}
+
+.task > p{     
+    position: relative;   
+    display:inline;
+    justify-content: left;
+    text-align: left;    
+
+    font-size: 1.6vh;
+    font-style: italic;
+    font-weight: 600;
+    color: #424242;
+
+    margin: 5px 0px;
+    padding: 0px;
+}
+
+.task-btn-del{
+    color: black !important;
+    font-style: normal !important;
+    font-size: 1.5vh !important;
+    display: flex !important;
+    justify-content: right !important;
+    text-align: right !important;
+}
+
+.task-day{
+    color: black !important;
+    font-style: normal !important;
+    font-size: 1.5vh !important;
+    display: flex !important;
+    justify-content: left !important;
+    text-align: left !important;
+}
+
+.svg-del {
+    fill: #f32424;
+}
+
+p > svg {
+    height: 1.2em !important;
+    width: 1.2em !important;
+    cursor: pointer;
+}
+
+svg:hover {
+    transition: 0.3s ease;
+    transform: scale(1.2);
+}
+
+svg:not(:hover) {
+    transition: 0.3s ease;
+    transform: scale(1);
+}
+

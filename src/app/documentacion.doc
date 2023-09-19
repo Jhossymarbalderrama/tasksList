@@ -1,0 +1,14 @@
+***********************************************************
+*************   Tecnologia Utilizadas  ********************
+
+Angular:
+    -Componentes
+    -Servicios
+    -Clases
+
+Librerias:
+    -SVGs FontAwesome v6
+    -JSON Server (npm - CRUD API REST LOCAL) -> Inicializarlo en package.json
+        -Scrips: { "server": "json-server --watch db.json --port 5001"}
+        -Crear en la raiz del proyecto el archivo db.json
+        -Iniciar server npm run server

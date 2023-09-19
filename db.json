@@ -1,0 +1,40 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "text": "Terminar tasks list project",
+      "day": "10/09/2023",
+      "reminder": true
+    },
+    {
+      "id": 2,
+      "text": "Terminar portafolio web",
+      "day": "10/09/2023",
+      "reminder": false
+    },
+    {
+      "id": 3,
+      "text": "Ordenar cuarto",
+      "day": "10/09/2023",
+      "reminder": false
+    },
+    {
+      "id": 4,
+      "text": "Leer Manga DBS",
+      "day": "10/09/2023",
+      "reminder": false
+    },
+    {
+      "text": "Ponerse al dia con One Piece",
+      "day": "20/09/2023",
+      "reminder": true,
+      "id": 5
+    },
+    {
+      "text": "dasda",
+      "day": "ddasdsada",
+      "reminder": true,
+      "id": 6
+    }
+  ]
+}
