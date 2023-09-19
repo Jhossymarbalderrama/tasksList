@@ -5,6 +5,10 @@
     cursor: pointer;
 }
 
+.task:hover{
+    background-color: #dddddd;
+}
+
 .task.reminder{
     border-left: 5px solid orange;
 }
@@ -19,7 +23,7 @@
     justify-content: left;
     text-align: left;    
 
-    font-size: 1.6vh;
+    font-size: 16px;
     font-style: italic;
     font-weight: 600;
     color: #424242;
@@ -31,16 +35,18 @@
 .task-btn-del{
     color: black !important;
     font-style: normal !important;
-    font-size: 1.5vh !important;
+    font-size: 18px !important;
     display: flex !important;
     justify-content: right !important;
     text-align: right !important;
+    margin: 0px !important;
+    padding: 0px !important;
 }
 
 .task-day{
     color: black !important;
     font-style: normal !important;
-    font-size: 1.5vh !important;
+    font-size: 12px !important;
     display: flex !important;
     justify-content: left !important;
     text-align: left !important;

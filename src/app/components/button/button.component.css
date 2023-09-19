@@ -7,3 +7,13 @@
     border-radius: 4px;
     font-size: 1.6vh;
 }
+
+.btn-custom:hover{
+    transition: 0.5s ease;
+    transform: scale(1.2);
+}
+
+.btn-custom:not(:hover){
+    transition: 0.5s ease;
+    transform: scale(1);
+}

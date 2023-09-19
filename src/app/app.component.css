@@ -1,65 +1,79 @@
-
-
 body {
     min-width: 100vw;
     min-height: 100vh;
-    background: rgb(158,45,202);
-    background: radial-gradient(circle, rgba(158,45,202,1) 0%, rgba(113,15,151,1) 84%, rgba(79,0,110,1) 100%);
+    background: #9e2dca;
+    background: radial-gradient(circle, rgba(158, 45, 202, 1) 0%, rgba(113, 15, 151, 1) 84%, rgba(79, 0, 110, 1) 100%);
 }
 
 
-.container{
+.container {
     background-color: #d8d8d8ce;
     max-width: 25vw;
     margin: 30px auto;
-    overflow: hidden;    
+    overflow: hidden;
     padding: 20px;
     height: 80vh;
-    border-radius: 5px;    
-    box-shadow: 8px 8px 0px 3px rgba(0, 0, 0, 0.50);            
+    border-radius: 5px;
+    box-shadow: 8px 8px 0px 3px rgba(0, 0, 0, 0.50);
 }
 
-.box{
+.box {
+    margin: -10px;
+    padding-right: 10px;
     overflow: auto;
-    height: 55vh;    
+    height: 58vh;
 }
 
-.box::-webkit-scrollbar {
-    margin: 0;
-    padding: 0;
-    width: 0px;
-    background: transparent;        /* color of the tracking area */
-  }
-
-@media screen and (min-width: 1024px) {
-    
+.box::-webkit-scrollbar {    
+    width: 12px;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023) {
-    
+.box::-webkit-scrollbar {    
+    width: 9px;
+    background: white;
+    border-radius: 5px;    
 }
 
-@media screen and (max-width: 767px) {
-    .content{
-        height: 80vh;
-    }    
+.box::-webkit-scrollbar-thumb {
+    background-color: #9e2dca;
+    border-radius: 5px;
+    border: 1px solid #80808085;
+}
 
-    .box{
+@media screen and (min-width: 1024px) {}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .content {
+        height: 70vh;
+    }
+
+    .box {
         overflow: auto;
-        height: 70vh;    
+        height: 73vh;
     }
 }
 
-.circles{
+@media screen and (max-width: 767px) {
+    .content {
+        height: 80vh;
+    }
+
+    .box {
+        overflow: auto;
+        height: 73vh;
+    }
+}
+
+.circles {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;    
+    height: 100%;
     overflow: hidden;
 }
 
-.circles li{
+.circles li {
     position: absolute;
     display: block;
     list-style: none;
@@ -67,10 +81,10 @@ body {
     height: 20px;
     background: rgba(255, 255, 255, 0.2);
     animation: animate 25s linear infinite;
-    bottom: -150px;    
+    bottom: -150px;
 }
 
-.circles li:nth-child(1){
+.circles li:nth-child(1) {
     left: 25%;
     width: 80px;
     height: 80px;
@@ -78,7 +92,7 @@ body {
 }
 
 
-.circles li:nth-child(2){
+.circles li:nth-child(2) {
     left: 10%;
     width: 20px;
     height: 20px;
@@ -86,14 +100,14 @@ body {
     animation-duration: 12s;
 }
 
-.circles li:nth-child(3){
+.circles li:nth-child(3) {
     left: 70%;
     width: 20px;
     height: 20px;
     animation-delay: 4s;
 }
 
-.circles li:nth-child(4){
+.circles li:nth-child(4) {
     left: 40%;
     width: 60px;
     height: 60px;
@@ -101,28 +115,28 @@ body {
     animation-duration: 18s;
 }
 
-.circles li:nth-child(5){
+.circles li:nth-child(5) {
     left: 65%;
     width: 20px;
     height: 20px;
     animation-delay: 0s;
 }
 
-.circles li:nth-child(6){
+.circles li:nth-child(6) {
     left: 75%;
     width: 110px;
     height: 110px;
     animation-delay: 3s;
 }
 
-.circles li:nth-child(7){
+.circles li:nth-child(7) {
     left: 35%;
     width: 150px;
     height: 150px;
     animation-delay: 7s;
 }
 
-.circles li:nth-child(8){
+.circles li:nth-child(8) {
     left: 50%;
     width: 25px;
     height: 25px;
@@ -130,7 +144,7 @@ body {
     animation-duration: 45s;
 }
 
-.circles li:nth-child(9){
+.circles li:nth-child(9) {
     left: 20%;
     width: 15px;
     height: 15px;
@@ -138,7 +152,7 @@ body {
     animation-duration: 35s;
 }
 
-.circles li:nth-child(10){
+.circles li:nth-child(10) {
     left: 85%;
     width: 150px;
     height: 150px;
@@ -150,13 +164,13 @@ body {
 
 @keyframes animate {
 
-    0%{
+    0% {
         transform: translateY(0) rotate(0deg);
         opacity: 1;
         border-radius: 0;
     }
 
-    100%{
+    100% {
         transform: translateY(-1000px) rotate(720deg);
         opacity: 0;
         border-radius: 50%;
